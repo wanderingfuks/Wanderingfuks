@@ -1,0 +1,87 @@
+body {
+	max-width: 1300px;
+	padding: 0px;
+	margin: 0px;
+	border-box: 0;
+	font-family: Poiret One, serif;
+}
+
+/****** Main *******/
+
+div {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+.main-image {
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	position: absolute;
+	float: bottom-section;
+}
+
+h1 {
+  font-family: Amatic SC, serif;
+	font-weight: lighter;
+	font-size: 72px;
+  text-transform: capitalize;
+	text-align: center;
+	width: 75%;
+	margin-bottom: 3px;
+}
+
+h2 {
+	font-family: Poiret One, serif;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: center;
+	padding: none;
+	width: 75%;
+	margin-top: 1px;
+	margin-bottom: 30px;
+}
+
+nav {
+	float: left;
+	width: 20%;
+	margin-top: -40px;
+}
+
+ul a {
+	margin: -25px;
+	color: black;
+	text-decoration: none;
+
+}
+ul li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+header {
+    width:100%;
+  }
+  .main-image {
+    width:100%;
+  }
+	nav {
+		width:20%;
+	}
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  nav, header, .main-image {
+    width:50%;
+  }
+
+/***Work***/
+
+nav {
+	float: right;
+	width: 20%;
+	margin-top: -40px;
+}
